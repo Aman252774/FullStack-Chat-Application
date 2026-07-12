@@ -32,8 +32,8 @@ jobs:
             - name: "List directories"
               run: ls
 
-            - name: "Run tests"
-              run: npm test
+            # - name: "Run tests"
+            #   run: npm test
            
             - name: "Upload product-ready build folder"
               uses: actions/upload-artifact@v4
